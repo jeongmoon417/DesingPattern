@@ -26,22 +26,8 @@ int singleton::getValue() {
 void singleton::incValue() {
 	value++;
 }
-
+/*
 int main (void) {
-        singleton* mySingleton1;
-        singleton* mySingleton2;
-
-        //아래 경우 애러: 생성자가 private (error: ‘singleton::singleton()’ is private within this context)
-        //singleton mySingleton3 = singleton();
-
-        mySingleton1 = mySingleton1->getInstance();
-        mySingleton2 = singleton::getInstance();
-
-        cout << " mySingleton1.getValue() : " << mySingleton1->getValue() << endl;
-        cout << "mySingleton2.incValue() : " << endl;
-        mySingleton2->incValue();
-        cout << " mySingleton1.getValue() : " << mySingleton1->getValue() << endl;
-
-        return 0;
+	return 0;
 }
-
+*/
